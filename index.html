@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bồ taoo xinh lắm</title>
+    
     <link rel="icon" href="images/download.png" type="image/x-icon">
     <META NAME="Generator" CONTENT="EditPlus">
 
@@ -14,6 +15,7 @@
  
   <META NAME="Description" CONTENT="">
     <style>
+      
       /*Dòng chữ chạy trong css*/
       
       .marquee {
@@ -111,10 +113,20 @@
 <!-- Phần nội dung chính của trang web -->
     <div id="content">
       <div class="marquee">
-        <span>Welecome to my đẹt ty nii
-          👉👈
-           </span>
+        <span>Welecome to my đẹt ty nii👉👈
+</span>
     </div>
+    <h1>Có<span id="visits"></span> 👀</h1>
+
+<script
+// Giả sử chúng ta có một API trả về số lượt truy cập
+fetch('https://app.igniterfy.com/pixel/dmx22alw7nnqnpa9a2xvqqnhn5ncwlgd')
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('visits').innerText = data.visits;
+    });
+</script>
+
         <!-- Liên kết Facebook với khung -->
         <a href="https://www.facebook.com/profile.php?id=100048389088933" title="Nguyễn Thị Linh Anh">Facebook</a>
         &#160;&#160;&#160;
