@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 137, 195)    ;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#lottie {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
